@@ -39,7 +39,7 @@ def batch_convert(directory, from_encoding, to_encoding, extensions):
 
 
 # 设置要转换的目录和编码
-directory = "F:/bugplus/tools/AnoAssistant"  # 替换为你的文件夹路径
+directory = "D:/Downloads/YX61813-+GY-MPU9250模块-190518"  # 替换为你的文件夹路径
 from_encoding = "gb2312"
 to_encoding = "utf-8"
 extensions = ['.c', '.h','.txt']  # 只处理 .c 和 .h .txt 文件
