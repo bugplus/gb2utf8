@@ -34,7 +34,7 @@ def batch_convert(directory, from_encoding, to_encoding, extensions):
                 print(f"Skipped {file_path} (not a .c, .h or .txt file)")
 
 # 设置要转换的目录和编码
-directory = "F:/bugplus/firmware/2.4G/2.4G wireless/"  # 替换为你的文件夹路径
+directory = "F:/boatman/firmware/remote/bm-dhrc/bm-dhrc-3518-fw"  # 替换为你的文件夹路径
 from_encoding = "gb2312"
 to_encoding = "utf-8"
 extensions = ['.c', '.h', '.txt']  # 只处理 .c、.h 和 .txt 文件
